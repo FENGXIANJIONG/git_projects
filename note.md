@@ -31,3 +31,5 @@ ssh-add ~/.ssh/id_rsa
 serval config:
 copy id_rsa.pub to github->settings->SSH Keys->New key
 
+git log
+git reset --hard HEAD^//HEAD~1
