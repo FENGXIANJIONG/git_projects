@@ -28,8 +28,11 @@ ssh -v git@github.com
 ssh-agent -s
 ssh-add ~/.ssh/id_rsa
 
-serval config:
+##server config:
 copy id_rsa.pub to github->settings->SSH Keys->New key
 
 git log
 git reset --hard HEAD^//HEAD~1
+
+##![reject] failed to push some ref....
+git pull
